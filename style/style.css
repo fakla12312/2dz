@@ -115,8 +115,6 @@ h1 {
     justify-content: space-between;
 }
 
-
-
 .nad_nav {
     display: flex;
     justify-content: center;
@@ -160,6 +158,10 @@ h1 {
     background: #F8DE5F;
     border-radius: 35px;
 }
+
+
+/* main */
+
 
 .h2 {
     font-family: 'Object Sans';
@@ -402,9 +404,101 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 110px;
-
 }
 
 .s3b_h2 {
     margin-bottom: 80px;
+}
+
+.sec4 {
+    padding: 70px;
+    background: linear-gradient(79.7deg, #F8DE5F 0.74%, #FFEC8D 27.61%, #F4D330 41.77%, #F1D133 64.75%, #FCE575 111.18%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.s4blocks {
+    margin: 35px 0 65px;
+    display: flex;
+    margin-left: -32px;
+
+}
+
+.s4block {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 32px;
+}
+
+.s4_midblock {
+    border-left: 1px solid rgba(0, 0, 0, 0.13);
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.s4_links {
+    display: flex;
+    gap: 21px;
+}
+
+.s4_a1 {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    width: 231px;
+    height: 70px;
+    background: #32373B;
+    box-shadow: 0px 4px 55px rgba(50, 55, 59, 0.29);
+    border-radius: 35px;
+}
+
+.s4_a2 {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #0F0F0F;
+    width: 231px;
+    height: 70px;
+    border: 1px solid #131313;
+    filter: drop-shadow(0px 4px 55px rgba(50, 55, 59, 0.29));
+    border-radius: 35px;
+}
+
+.s4blockdiv h3 {
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.s4blockdiv p {
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
 }
