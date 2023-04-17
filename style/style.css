@@ -418,6 +418,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
 .s4blocks {
@@ -501,4 +502,122 @@ h1 {
     line-height: 18px;
     color: rgba(0, 0, 0, 0.7);
     opacity: 0.7;
+}
+
+.sec5 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed #DDDDDD;
+    border-radius: 35px;
+    height: 400px;
+    align-items: center;
+    padding-left: 130px;
+    margin-bottom: 140px;
+}
+
+.s5_h2 {
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 39px;
+    color: #255447;
+}
+
+.s5_p {
+    margin: 37px 0 40px;
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    color: #255447;
+    width: 450px;
+}
+
+input::placeholder {
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+input {
+    padding-left: 20px;
+    border: none;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 35px;
+    width: 180px;
+    height: 55px;
+}
+
+button {
+    font-family: 'Object Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 55px;
+    background: #255447;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 50px 0 70px;
+    background: #29574A;
+}
+
+.fot_betw{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fot_1 {
+    width: 400px;
+}
+
+.fot_p {
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.fot_h {
+    margin-bottom: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.fot_a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.fpm{
+    margin-bottom: 15px;
+}
+
+.fot_block{
+    margin: 30px 0;
 }
